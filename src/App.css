@@ -10,8 +10,11 @@ body {
   margin: 0;
   background-color: #b0e4ac;
 }
-
+Canvas{
+  padding-top: 5rem;
+}
 #first .smashinglogo{
+  padding-top: 2rem;
   background-image: url(../public/maia-logolar-04.png);
   background-repeat: no-repeat;
   background-size: contain;

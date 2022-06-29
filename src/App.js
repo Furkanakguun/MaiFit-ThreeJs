@@ -21,7 +21,7 @@ import * as THREE from "three";
 import { useLoader } from "@react-three/fiber";
 
 const Model = () => {
-  const gltf = useLoader(GLTFLoader, "./skelton/scene.gltf");
+  const gltf = useLoader(GLTFLoader, "./spine/scene.gltf");
   return (
     <>
       <Suspense fallback={null}>
@@ -52,8 +52,8 @@ const CameraControls = () => {
       // maxAzimuthAngle={Math.PI / 2}
       maxPolarAngle={Math.PI}
       // minAzimuthAngle={-Math.PI / 2}
-      // maxZoom={10}
-      // minZoom={100}
+      maxZoom={10}
+      minZoom={100}
       enablePan={false}
       minPolarAngle={0}
     />
@@ -188,12 +188,15 @@ const App = ({ open, ...props }) => {
           data-speed="-2"
         ></div>
       </section>
-      <Canvas dpr={[1, 2]} camera={{ position: [0, 40, 25], fov: 90 }}>
+      <Canvas
+        dpr={[1, 2]}
+        camera={{ position: [0, 40, 25], fov: 90, zoom: 1.3 }}
+      >
         {/* <OrbitControls  /> */}
         <CameraControls />
         {/* <Stars factor={2} /> */}
-        <ambientLight intensity={1} />
-        <spotLight position={[50, 20, 20]} angle={1} />
+        <ambientLight intensity={1} color="yellow" />
+        <spotLight position={[0, 40, 25]} angle={1} color="yellow" />
         <Model />
 
         <ambientLight intensity={0.1} />
@@ -204,7 +207,7 @@ const App = ({ open, ...props }) => {
               hello world!
             </Text> */}
         {/* <fog attach="fog" args={["#202025", 0, 80]} /> */}
-        <Cloud count={3} radius={30} />
+        <Cloud count={3} radius={20} />
         {/* <TrackballControls /> */}
       </Canvas>
     </div>

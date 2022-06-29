@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spine (collection of thunthu)
+* source:	https://sketchfab.com/3d-models/spine-collection-of-thunthu-1ce94666922f48c9b68cd0e196b74a0a
+* author:	thunthu (https://sketchfab.com/thunthu)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spine (collection of thunthu)" (https://sketchfab.com/3d-models/spine-collection-of-thunthu-1ce94666922f48c9b68cd0e196b74a0a) by thunthu (https://sketchfab.com/thunthu) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

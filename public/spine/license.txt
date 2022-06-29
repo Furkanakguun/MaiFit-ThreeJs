@@ -1,0 +1,11 @@
+Model Information:
+* title:	Spine
+* source:	https://sketchfab.com/3d-models/spine-046cbe3b686141309ad596f8672b533f
+* author:	osuecampus (https://sketchfab.com/osuecampus)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Spine" (https://sketchfab.com/3d-models/spine-046cbe3b686141309ad596f8672b533f) by osuecampus (https://sketchfab.com/osuecampus) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
