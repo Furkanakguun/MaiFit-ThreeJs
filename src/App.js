@@ -133,38 +133,32 @@ const App = ({ open, ...props }) => {
         new THREE.Vector3().setFromSpherical(
           spherical.set(radius, phiSpan * 1, thetaSpan * 0)
         ),
-        "Experiement",
+        "Maia",
       ]);
       temp.push([
         new THREE.Vector3().setFromSpherical(
           spherical.set(radius, phiSpan * 1, thetaSpan * 1)
         ),
-        "News&Info",
+        "Kurumsal",
         "news",
       ]);
       temp.push([
         new THREE.Vector3().setFromSpherical(
           spherical.set(radius, phiSpan * 1, thetaSpan * 2)
         ),
-        "Team",
+        "Uygulamalarımız",
       ]);
       temp.push([
         new THREE.Vector3().setFromSpherical(
           spherical.set(radius, phiSpan * 2, thetaSpan * 3)
         ),
-        "Showroom",
-      ]);
-      temp.push([
-        new THREE.Vector3().setFromSpherical(
-          spherical.set(radius, phiSpan * 2, thetaSpan * 4)
-        ),
-        "Partners",
+        "MaiaFit Academy",
       ]);
       temp.push([
         new THREE.Vector3().setFromSpherical(
           spherical.set(radius, phiSpan * 2, thetaSpan * 5)
         ),
-        "Contact",
+        "İletişim",
       ]);
       // for (let i = 1; i < count + 1; i++)
       //   // Taken from https://discourse.threejs.org/t/can-i-place-obects-on-a-sphere-surface-evenly/4773/6
